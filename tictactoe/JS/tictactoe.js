@@ -34,7 +34,7 @@ function placeXOrO(squareNumber) {
         activePlayer = 'X';
     }
     //This function plays placement sound.
-    Audio('./media/place.mp3');
+    audio('./media/place.mp3');
     //This condition checks to see if it is the computers turn.
     if (activePlayer == 'O') {
         //This function disables clicking for computers turn.
@@ -56,7 +56,7 @@ function placeXOrO(squareNumber) {
             //A random number between 0 and 8 is selected.
             pickASquare = String(Math.floor(Math.random() * 9));
             //If the random number evaluated return true, the square hasn't been selected yet.
-            if (placeXOrO(pickASquare)){
+            if (placeXOrO(pickASquare)) {
                 //This line calls the function.
                 placeXOrO(pickASquare);
                 //This changes our boolean and ends the loop.
