@@ -36,7 +36,7 @@
 
 #showText {
     width: 200px;
-    height: 190px;
+    height: 200px;
     margin: 0px auto;
     float: left;
     }
@@ -51,8 +51,6 @@
     margin: 10px 0px 0px 100px;
     width: 100px;
     height: 40px;
-    display: block;
-    margin: 25px auto;
     }
 
 body {
